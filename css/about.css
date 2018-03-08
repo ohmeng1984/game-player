@@ -1,0 +1,231 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+background: url("../images/gamepad.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:100%;
+width: 100%
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 16px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 5px;
+  background: red;
+  width: 0%;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+#pchead1 {
+	background-color: rgba(238, 17, 17, 0.75);
+	color: white;
+	margin: 100px auto 0px auto;
+	text-align: center;
+	width: 80%;
+}
+
+#pchead2 {
+	background-color: rgba(0, 102, 255, 0.75);
+	color: white;
+	margin: 35px auto 0px auto;
+	text-align: center;
+	width: 80%;
+}
+
+#pchead3 {
+  background-color: rgba(0, 255, 10, 0.75);
+  color: white;
+  margin: 35px auto 0px auto;
+  text-align: center;
+  width: 80%;
+}
+
+.panel-group > #pcpanelbig {
+  background-color: rgba(250, 250, 250, 0.85);
+}
+
+#pcpanelbig > .panel-heading {
+  background-color: rgba(238, 17, 17, 0.85);
+  color: white;
+}
+
+#panout {
+  background-color: rgba(255, 255, 210, 0.55);
+  color: black;
+  margin: 20px auto 20px auto;
+  width: 90%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.text {
+  color: black;
+}
+
+#logo {
+  margin: 2px 7px 0px 0px; 
+  width: 150px;
+  height: 47px;
+}
+
+.dropdown-menu > .active > a {
+    background-color: black;
+    color: white;
+
+}
+
+.dropdown-menu > .pc > a:hover,
+.dropdown-menu > .pc > a:focus {
+	background-color: red;
+}
+
+.dropdown-menu > .ps > a:hover,
+.dropdown-menu > .ps > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+}
+
+.dropdown-menu > .mob > a:hover,
+.dropdown-menu > .mob > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: green;
+}
+
+.panelout {
+	background-color: #FED766;
+  width: 50%;
+}
+
+
+#maps {
+  margin: 0px auto 10px auto;
+  width: 90%;
+  height: 70%;
+}
+
+#rightcol {
+  margin: 0px auto 10px auto;
+}
+
+#rightcol > p {
+  margin-left: 10px;
+}
+
+/*Footer Style*/
+i {
+  margin: 0% 1% 0% 1%;
+}
+
+hr {
+  margin: 2% 20% 2% 20%;
+}
+
+#footbanner {
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+}
+
+#country {
+  float: left;
+  margin: 5px 15px 0px 2px;
+}
+
+  #maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+  #maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.dropdown-menu {
+  margin: 5px 15px 0px 2px;
+}
+
+#footfollow {
+  margin-top: 10px;
+}
+/*Social Media Style*/
+
+.fa {
+   font-size: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
