@@ -22,7 +22,7 @@
   border-radius: 4px;
 }
 
-  .modal-header, h4, .close {
+  .modal-header, .modal-header > h4, .close {
       background-color: #5cb85c;
       color:white !important;
       text-align: center;
@@ -203,4 +203,8 @@ hr {
 .fa-youtube {
   background: #bb0000;
   color: white;
+}
+
+.modal-content > .modal-header > h4 {
+  color: red;
 }
