@@ -138,9 +138,12 @@ h2, h3 {
   width: 100%;
 }
 
-.media > .media-left > img {
+.media > .media-left > img, .media-left > img {
   width: 60px;
+  height: 60px
 }
+
+
 
 #gameinfo {
 	width: 45%;
